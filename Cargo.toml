@@ -1,0 +1,12 @@
+[package]
+name = "fft"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num = "0.4"
+pipewire = "0.8"
+color-eyre = "0.6.3"
+crossterm = "0.28.1"
+ratatui = "0.29.0"
+circular-buffer = "0.1.9"
