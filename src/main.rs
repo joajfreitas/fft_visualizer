@@ -260,8 +260,6 @@ impl Ui {
         loop {
             let (fft, max) = self.rx.recv().unwrap();
 
-            dbg!(max);
-
             if s < 2 {
                 s += 1;
                 continue;
